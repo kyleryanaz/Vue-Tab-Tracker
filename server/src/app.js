@@ -14,9 +14,9 @@ app.use(bodyParser.json());
 // For allowing any host to hit server
 app.use(cors());
 
-app.get('/status', (req, res) => {
+app.post('/register', (req, res) => {
     res.send({
-        message: "Hello World!"
+        message: `Hello ${req.body.email}!`
     })
 })
 
