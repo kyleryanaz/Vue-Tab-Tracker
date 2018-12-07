@@ -31,8 +31,7 @@
         ></v-text-field>
 
         <v-text-field
-          label="Album I
-          mage Url"
+          label="Album Image Url"
           required
           :rules="[required]"
           v-model="song.albumImageUrl"
