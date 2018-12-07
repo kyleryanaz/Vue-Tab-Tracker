@@ -32,7 +32,7 @@ export default new Router({
     },
     {
       path: '/songs/create',
-      name: 'song-create',
+      name: 'songs-create',
       component: CreateSong
     }
   ]
