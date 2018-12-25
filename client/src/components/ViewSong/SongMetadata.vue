@@ -54,14 +54,4 @@ export default {
   width: 70%;
   margin: 0 auto;
 }
-textarea {
-  width: 100%;
-  font-family: monospace;
-  border: none;
-  height: 330px;
-  border-style: none;
-  border-color: transparent;
-  overflow: auto;
-  padding: 40px;
-}
 </style>
